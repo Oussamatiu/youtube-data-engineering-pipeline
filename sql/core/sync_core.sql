@@ -1,6 +1,4 @@
--- ============================================================
--- INSERT new videos
--- ============================================================
+
 
 INSERT INTO core.youtube_videos (
     video_id,
@@ -43,11 +41,6 @@ WHERE video_id NOT IN (
     SELECT video_id
     FROM core.youtube_videos
 );
-
-
--- ============================================================
--- UPDATE existing videos
--- ============================================================
 
 UPDATE core.youtube_videos AS core
 
