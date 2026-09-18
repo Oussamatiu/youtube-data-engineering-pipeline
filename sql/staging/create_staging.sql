@@ -9,4 +9,4 @@ CREATE TABLE IF NOT EXISTS staging.youtube_videos (
     like_count BIGINT,
     comment_count BIGINT,
     loaded_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
-).
+);
