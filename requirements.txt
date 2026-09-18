@@ -3,3 +3,4 @@ apache-airflow-providers-http
 google-api-python-client
 pandas
 psycopg2-binary
+python-dotenv
